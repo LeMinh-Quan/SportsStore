@@ -1,0 +1,6 @@
+﻿@model IEnumerable<SportsStore.Domain.Product>
+
+@foreach (var p in Model)
+{
+    
+}

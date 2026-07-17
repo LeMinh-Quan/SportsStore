@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@ViewData["Title"] - SportsStore</title>
+	<link rel="stylesheet" href="~/css/bootstrap.min.css" />
+</head>
+<body>
+	<header class="bg-dark text-white p-2">
+		<div class="container-fluid">
+			<span class="navbar-brand ml-2">SPORTS STORE</span>
+		</div>
+	</header>
+
+	<div class="container-fluid mt-4">
+		<div class="row">
+			<aside class="col-md-3">
+				<p>Đây là Sidebar (sẽ được phát triển ở các buổi sau).</p>
+				<p>Chúng ta có thể đặt các danh mục sản phẩm ở đây.</p>
+			</aside>
+
+			<main class="col-md-9">
+				@RenderBody()
+			</main>
+		</div>
+	</div>
+
+	<footer class="border-top footer text-muted text-center p-3">
+		<div class="container">
+			&copy; 2025 - SportsStore
+		</div>
+	</footer>
+
+	<script src="~/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

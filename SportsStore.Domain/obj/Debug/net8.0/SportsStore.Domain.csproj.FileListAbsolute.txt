@@ -1,0 +1,11 @@
+D:\0306241143\SportsStore\SportsStore.Domain\bin\Debug\net8.0\SportsStore.Domain.deps.json
+D:\0306241143\SportsStore\SportsStore.Domain\bin\Debug\net8.0\SportsStore.Domain.dll
+D:\0306241143\SportsStore\SportsStore.Domain\bin\Debug\net8.0\SportsStore.Domain.pdb
+D:\0306241143\SportsStore\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\0306241143\SportsStore\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.AssemblyInfoInputs.cache
+D:\0306241143\SportsStore\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.AssemblyInfo.cs
+D:\0306241143\SportsStore\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.csproj.CoreCompileInputs.cache
+D:\0306241143\SportsStore\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.dll
+D:\0306241143\SportsStore\SportsStore.Domain\obj\Debug\net8.0\refint\SportsStore.Domain.dll
+D:\0306241143\SportsStore\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.pdb
+D:\0306241143\SportsStore\SportsStore.Domain\obj\Debug\net8.0\ref\SportsStore.Domain.dll
