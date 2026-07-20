@@ -38,3 +38,4 @@ D:\0306241143\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\staticwebassets.bui
 D:\0306241143\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 D:\0306241143\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\swae.build.ex.cache
 D:\0306241143\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\0306241143\SportsStore\SportsStore.WebUI\obj\Debug\net8.0\SportsStore.WebUI.sourcelink.json
