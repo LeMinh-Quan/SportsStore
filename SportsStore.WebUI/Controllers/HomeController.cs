@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using SportsStore.WebUI.Models;
 using System.Diagnostics;
+using SportsStore.WebUI.Infrastructure;
 using SportsStore.Domain;
 
 namespace SportsStore.WebUI.Controllers
@@ -19,7 +20,15 @@ namespace SportsStore.WebUI.Controllers
 
         }
 
-        public ViewResult Index() => View(_repository.Products);
+        public ViewResult Index()
+        {
+            HttpContext.Session.SetString("UserName", "Alice");
+            string? userName = HttpContext.Session.GetString("UserName");
+
+            ViewBag.UserName = userName;
+
+            return View(_repository.Products);
+        }
 
         public IActionResult Privacy()
         {

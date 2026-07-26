@@ -13,3 +13,4 @@ D:\0306241143\SportsStore\SportsStore.Infrastructure\obj\Debug\net8.0\SportsStor
 D:\0306241143\SportsStore\SportsStore.Infrastructure\obj\Debug\net8.0\refint\SportsStore.Infrastructure.dll
 D:\0306241143\SportsStore\SportsStore.Infrastructure\obj\Debug\net8.0\SportsStore.Infrastructure.pdb
 D:\0306241143\SportsStore\SportsStore.Infrastructure\obj\Debug\net8.0\ref\SportsStore.Infrastructure.dll
+D:\0306241143\SportsStore\SportsStore.Infrastructure\obj\Debug\net8.0\SportsStore.Infrastructure.sourcelink.json
