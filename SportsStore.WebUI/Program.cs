@@ -1,11 +1,13 @@
 using SportsStore.Domain;
 using SportsStore.Infrastructure;
-
+using SportsStore.WebUI.Models;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddDistributedMemoryCache();
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddScoped<SportsStore.WebUI.Models.Cart>(sp=>SessionCart.GetCart(sp));
 
 builder.Services.AddSession(option =>
 {

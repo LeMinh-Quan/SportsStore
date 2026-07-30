@@ -38,4 +38,9 @@ public class Cart
         Lines.Sum(e => e.Product.Price * e.Quantity);
 
     public virtual void Clear() => Lines.Clear();
+
+    internal void AddItem(Product? product, object l)
+    {
+        throw new NotImplementedException();
+    }
 }
