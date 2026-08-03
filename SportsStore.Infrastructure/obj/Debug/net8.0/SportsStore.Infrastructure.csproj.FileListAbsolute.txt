@@ -14,3 +14,5 @@ D:\0306241143\SportsStore\SportsStore.Infrastructure\obj\Debug\net8.0\refint\Spo
 D:\0306241143\SportsStore\SportsStore.Infrastructure\obj\Debug\net8.0\SportsStore.Infrastructure.pdb
 D:\0306241143\SportsStore\SportsStore.Infrastructure\obj\Debug\net8.0\ref\SportsStore.Infrastructure.dll
 D:\0306241143\SportsStore\SportsStore.Infrastructure\obj\Debug\net8.0\SportsStore.Infrastructure.sourcelink.json
+D:\0306241143\SportsStore\SportsStore.Infrastructure\bin\Debug\net8.0\SportsStore.Infrastructure.runtimeconfig.json
+D:\0306241143\SportsStore\SportsStore.Infrastructure\obj\Debug\net8.0\SportsStore.Infrastructure.genruntimeconfig.cache

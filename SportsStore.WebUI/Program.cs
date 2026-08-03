@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using SportsStore.Domain;
 using SportsStore.Infrastructure;
 using SportsStore.WebUI.Models;
@@ -7,7 +8,23 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddHttpContextAccessor();
-builder.Services.AddScoped<SportsStore.WebUI.Models.Cart>(sp=>SessionCart.GetCart(sp));
+builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<SportsStore.WebUI.Models.Cart>(sp => SessionCart.GetCart(sp));
+
+var connectionString = builder.Configuration.GetConnectionString("SportsStoreConnection");
+if (builder.Environment.IsDevelopment())
+{
+    // Use in-memory database in development when SQL Server / LocalDB isn't available locally.
+    // This allows the app to start and be used for UI work without a local SQL Server setup.
+    builder.Services.AddDbContext<ApplicationDbContext>(options =>
+        options.UseInMemoryDatabase("SportsStoreInMemory"));
+}
+else
+{
+    builder.Services.AddDbContext<ApplicationDbContext>(options =>{
+        options.UseSqlServer(connectionString);
+    });
+}
 
 builder.Services.AddSession(option =>
 {
@@ -16,7 +33,7 @@ builder.Services.AddSession(option =>
     option.Cookie.IsEssential= true;
 });
 
-builder.Services.AddScoped<IProductRepository, FakeProductRepository>();
+builder.Services.AddScoped<IProductRepository, EFProductRepository>();
 
 var app = builder.Build();
 
@@ -41,4 +58,5 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
+SeedData.EnsurePopulated(app.Services);
 app.Run();
