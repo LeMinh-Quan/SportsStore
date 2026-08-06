@@ -8,7 +8,7 @@ namespace SportsStore.WebUI.Controllers
 {
     public class HomeController : Controller
     {
-
+        public int Pagesize = 6;// quy dinh moi trang 6 san pham
         private IProductRepository _repository;
 
         private readonly ILogger<HomeController> _logger;
@@ -20,14 +20,24 @@ namespace SportsStore.WebUI.Controllers
 
         }
 
-        public ViewResult Index()
+        public ViewResult Index(string? category, int productPage = 1)
         {
-            HttpContext.Session.SetString("UserName", "Alice");
-            string? userName = HttpContext.Session.GetString("UserName");
-
-            ViewBag.UserName = userName;
-
-            return View(_repository.Products);
+            return View(new ProductsListViewModel
+            {
+                Products = _repository.Products
+            .Where(p => category == null || p.Category == category)
+            .OrderBy(p => p.ProductID)
+            .Skip((productPage - 1) * Pagesize)
+            .Take(Pagesize),
+                PagingInfo = new PagingInfo
+                {
+                    CurrentPage = productPage,
+                    ItemsPerPage = Pagesize,
+                    TotalItems = category == null
+                ? _repository.Products.Count()
+                : _repository.Products.Where(e => e.Category == category).Count()
+                }
+            });
         }
 
         public IActionResult Privacy()

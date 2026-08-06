@@ -1,4 +1,5 @@
 D:\0306241143\SportsStore\SportsStore.Infrastructure\bin\Debug\net8.0\SportsStore.Infrastructure.deps.json
+D:\0306241143\SportsStore\SportsStore.Infrastructure\bin\Debug\net8.0\SportsStore.Infrastructure.runtimeconfig.json
 D:\0306241143\SportsStore\SportsStore.Infrastructure\bin\Debug\net8.0\SportsStore.Infrastructure.dll
 D:\0306241143\SportsStore\SportsStore.Infrastructure\bin\Debug\net8.0\SportsStore.Infrastructure.pdb
 D:\0306241143\SportsStore\SportsStore.Infrastructure\bin\Debug\net8.0\SportsStore.Domain.dll
@@ -8,11 +9,10 @@ D:\0306241143\SportsStore\SportsStore.Infrastructure\obj\Debug\net8.0\SportsStor
 D:\0306241143\SportsStore\SportsStore.Infrastructure\obj\Debug\net8.0\SportsStore.Infrastructure.AssemblyInfoInputs.cache
 D:\0306241143\SportsStore\SportsStore.Infrastructure\obj\Debug\net8.0\SportsStore.Infrastructure.AssemblyInfo.cs
 D:\0306241143\SportsStore\SportsStore.Infrastructure\obj\Debug\net8.0\SportsStore.Infrastructure.csproj.CoreCompileInputs.cache
+D:\0306241143\SportsStore\SportsStore.Infrastructure\obj\Debug\net8.0\SportsStore.Infrastructure.sourcelink.json
 D:\0306241143\SportsStore\SportsStore.Infrastructure\obj\Debug\net8.0\SportsSt.23F7FD65.Up2Date
 D:\0306241143\SportsStore\SportsStore.Infrastructure\obj\Debug\net8.0\SportsStore.Infrastructure.dll
 D:\0306241143\SportsStore\SportsStore.Infrastructure\obj\Debug\net8.0\refint\SportsStore.Infrastructure.dll
 D:\0306241143\SportsStore\SportsStore.Infrastructure\obj\Debug\net8.0\SportsStore.Infrastructure.pdb
-D:\0306241143\SportsStore\SportsStore.Infrastructure\obj\Debug\net8.0\ref\SportsStore.Infrastructure.dll
-D:\0306241143\SportsStore\SportsStore.Infrastructure\obj\Debug\net8.0\SportsStore.Infrastructure.sourcelink.json
-D:\0306241143\SportsStore\SportsStore.Infrastructure\bin\Debug\net8.0\SportsStore.Infrastructure.runtimeconfig.json
 D:\0306241143\SportsStore\SportsStore.Infrastructure\obj\Debug\net8.0\SportsStore.Infrastructure.genruntimeconfig.cache
+D:\0306241143\SportsStore\SportsStore.Infrastructure\obj\Debug\net8.0\ref\SportsStore.Infrastructure.dll
