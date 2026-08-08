@@ -10,14 +10,14 @@
         "projectUniqueName": "D:\\0306241143\\SportsStore\\SportsStore.Domain\\SportsStore.Domain.csproj",
         "projectName": "SportsStore.Domain",
         "projectPath": "D:\\0306241143\\SportsStore\\SportsStore.Domain\\SportsStore.Domain.csproj",
-        "packagesPath": "C:\\Users\\Minh Quan\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\QuanLaptop\\.nuget\\packages\\",
         "outputPath": "D:\\0306241143\\SportsStore\\SportsStore.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Minh Quan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\QuanLaptop\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net8.0": {
@@ -65,15 +65,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.29, 8.0.29]"
+              "version": "[8.0.28, 8.0.28]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.29, 8.0.29]"
+              "version": "[8.0.28, 8.0.28]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.29, 8.0.29]"
+              "version": "[8.0.28, 8.0.28]"
             }
           ],
           "frameworkReferences": {
@@ -81,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400-preview.0.26322.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -91,14 +91,14 @@
         "projectUniqueName": "D:\\0306241143\\SportsStore\\SportsStore.Infrastructure\\SportsStore.Infrastructure.csproj",
         "projectName": "SportsStore.Infrastructure",
         "projectPath": "D:\\0306241143\\SportsStore\\SportsStore.Infrastructure\\SportsStore.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Minh Quan\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\QuanLaptop\\.nuget\\packages\\",
         "outputPath": "D:\\0306241143\\SportsStore\\SportsStore.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Minh Quan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\QuanLaptop\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -130,7 +130,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net8.0": {
@@ -162,15 +162,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.29, 8.0.29]"
+              "version": "[8.0.28, 8.0.28]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.29, 8.0.29]"
+              "version": "[8.0.28, 8.0.28]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.29, 8.0.29]"
+              "version": "[8.0.28, 8.0.28]"
             }
           ],
           "frameworkReferences": {
@@ -178,7 +178,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400-preview.0.26322.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -188,14 +188,14 @@
         "projectUniqueName": "D:\\0306241143\\SportsStore\\SportsStore.WebUI\\SportsStore.WebUI.csproj",
         "projectName": "SportsStore.WebUI",
         "projectPath": "D:\\0306241143\\SportsStore\\SportsStore.WebUI\\SportsStore.WebUI.csproj",
-        "packagesPath": "C:\\Users\\Minh Quan\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\QuanLaptop\\.nuget\\packages\\",
         "outputPath": "D:\\0306241143\\SportsStore\\SportsStore.WebUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Minh Quan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\QuanLaptop\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -230,7 +230,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net8.0": {
@@ -256,19 +256,19 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.29, 8.0.29]"
+              "version": "[8.0.28, 8.0.28]"
             },
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[8.0.29, 8.0.29]"
+              "version": "[8.0.28, 8.0.28]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.29, 8.0.29]"
+              "version": "[8.0.28, 8.0.28]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.29, 8.0.29]"
+              "version": "[8.0.28, 8.0.28]"
             }
           ],
           "frameworkReferences": {
@@ -279,7 +279,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400-preview.0.26322.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
