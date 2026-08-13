@@ -12,20 +12,10 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<SportsStore.WebUI.Models.Cart>(sp => SessionCart.GetCart(sp));
 
 var connectionString = builder.Configuration.GetConnectionString("SportsStoreConnection");
-if (builder.Environment.IsDevelopment())
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
-    // Use in-memory database in development when SQL Server / LocalDB isn't available locally.
-    // This allows the app to start and be used for UI work without a local SQL Server setup.
-    builder.Services.AddDbContext<ApplicationDbContext>(options =>
-        options.UseInMemoryDatabase("SportsStoreInMemory"));
-}
-else
-{
-    builder.Services.AddDbContext<ApplicationDbContext>(options =>{
-        options.UseSqlServer(connectionString);
-    });
-}
-
+    options.UseSqlServer(connectionString);
+});
 builder.Services.AddSession(option =>
 {
     option.IdleTimeout=TimeSpan.FromMinutes(30);
